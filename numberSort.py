@@ -1,5 +1,5 @@
 #Number sort example
 def numSort(param):
-    word = param
-    result = str(sorted(word))
+    num = param
+    result = str(sorted(num))
     return result
