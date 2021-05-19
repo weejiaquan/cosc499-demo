@@ -7,7 +7,7 @@ def numberSortTest():
 
 def wordSortTest():
     words = ["d","b","a","c"]
-    assert numSort(words) == "['a', 'b', 'c', 'd']", "Should be ['a', 'b', 'c', 'd']"
+    assert wordSort(words) == "['a', 'b', 'c', 'd']", "Should be ['a', 'b', 'c', 'd']"
 
 if __name__ == "__main__":
     numberSortTest()
