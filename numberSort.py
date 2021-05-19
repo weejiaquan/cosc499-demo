@@ -1,6 +1,5 @@
 #Number sort example
-numbers = [6, 9, 3, 1]
-result = str(sorted(numbers))
-
-print("Result = "+ result)
-
+def numSort(param):
+    word = param
+    result = str(sorted(word))
+    return result
