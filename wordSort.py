@@ -1,6 +1,5 @@
 #Word sort example
-word = ["d","b","a","c"]
-result = str(sorted(word))
-
-print("Result = "+ result)
-
+def wordSort(param):
+    word = param
+    result = str(sorted(word))
+    return result
